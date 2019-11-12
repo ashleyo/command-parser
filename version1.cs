@@ -15,6 +15,7 @@ namespace CLP2
         static void Main(string[] args)
         {
             // ensure the dictionary has at least  one entry
+            // the values could be method names or (as here) lambda expressions
             commands["help"] = () => Console.WriteLine("I would be delighted to help. Type 'help' for help.");
 
             // the main repl 
